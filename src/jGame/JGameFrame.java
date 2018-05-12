@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 public class JGameFrame extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private final int widthExtension = 20;
-	private final int heightExtension = 30;
+	private final int heightExtension = 50;
 
 	public JGameFrame() {
 		setSize(widthExtension, heightExtension);

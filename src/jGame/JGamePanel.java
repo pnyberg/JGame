@@ -8,9 +8,10 @@ import javax.swing.JPanel;
 
 public abstract class JGamePanel extends JPanel implements KeyListener {
 	private static final long serialVersionUID = 1L;
-
-	int width, height;
 	
+	int width;
+	int height;
+
 	public JGamePanel(int width, int height) {
 		this.width = width;
 		this.height = height;
